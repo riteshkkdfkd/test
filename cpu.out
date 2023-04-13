@@ -1,0 +1,560 @@
+github.com/prometheus/prometheus/model/textparse.(*promlexer).Lex
+/app/model/textparse/promlex.l.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    278         10ms       10ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*promlexer).Lex
+/app/model/textparse/promlex.l.go
+
+  Total:        30ms       30ms (flat, cum)  6.38%
+    321         10ms       10ms           ??? 
+    325         20ms       20ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*promlexer).Lex
+/app/model/textparse/promlex.l.go
+
+  Total:        90ms       90ms (flat, cum) 19.15%
+    347         60ms       60ms           ??? 
+    355         30ms       30ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*promlexer).next
+/app/model/textparse/promparse.go
+
+  Total:        70ms       70ms (flat, cum) 14.89%
+    126         30ms       30ms           ??? 
+    127         20ms       20ms           ??? 
+    133         20ms       20ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*PromParser).nextToken
+/app/model/textparse/promparse.go
+
+  Total:           0      130ms (flat, cum) 27.66%
+    248            .      130ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*PromParser).Next
+/app/model/textparse/promparse.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    280            .       10ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*PromParser).Next
+/app/model/textparse/promparse.go
+
+  Total:        20ms      150ms (flat, cum) 31.91%
+    328         10ms       10ms           ??? 
+    333            .      130ms           ??? 
+    342         10ms       10ms           ??? 
+github.com/prometheus/prometheus/model/textparse.(*PromParser).parseLVals
+/app/model/textparse/promparse.go
+
+  Total:        10ms      130ms (flat, cum) 27.66%
+    387            .       90ms           ??? 
+    396         10ms       10ms           ??? 
+    400            .       30ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*headAppender).Append
+/app/tsdb/head_append.go
+
+  Total:           0       30ms (flat, cum)  6.38%
+    250            .       30ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*headAppender).Append
+/app/tsdb/head_append.go
+
+  Total:        30ms       40ms (flat, cum)  8.51%
+    276         10ms       10ms           ??? 
+    277         10ms       10ms           ??? 
+    294         10ms       10ms           ??? 
+    299            .       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*memSeries).appendable
+/app/tsdb/head_append.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    310         10ms       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*headAppender).log
+/app/tsdb/head_append.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    396            .       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*headAppender).Commit
+/app/tsdb/head_append.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    431            .       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*headAppender).Commit
+/app/tsdb/head_append.go
+
+  Total:        10ms       20ms (flat, cum)  4.26%
+    458         10ms       10ms           ??? 
+    459            .       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*memSeries).append
+/app/tsdb/head_append.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    507         10ms       10ms           ??? 
+runtime.memmove
+/usr/local/go/src/runtime/memmove_amd64.s
+
+  Total:        30ms       30ms (flat, cum)  6.38%
+    369         10ms       10ms           ??? 
+    371         10ms       10ms           ??? 
+    374         10ms       10ms           ??? 
+runtime.memclrNoHeapPointers
+/usr/local/go/src/runtime/memclr_amd64.s
+
+  Total:        30ms       30ms (flat, cum)  6.38%
+     78         10ms       10ms           ??? 
+     82         10ms       10ms           ??? 
+     83         10ms       10ms           ??? 
+runtime.mapaccess2_faststr
+/usr/local/go/src/runtime/map_faststr.go
+
+  Total:        30ms       30ms (flat, cum)  6.38%
+    192         30ms       30ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*stripeSeries).getByID
+/app/tsdb/head.go
+
+  Total:        30ms       30ms (flat, cum)  6.38%
+   1436         20ms       20ms           ??? 
+   1438         10ms       10ms           ??? 
+compress/flate.(*decompressor).Read
+/usr/local/go/src/compress/flate/inflate.go
+
+  Total:           0       60ms (flat, cum) 12.77%
+    337            .       20ms           ??? 
+    347            .       40ms           ??? 
+compress/flate.(*decompressor).huffmanBlock
+/usr/local/go/src/compress/flate/inflate.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+    494            .       20ms           ??? 
+compress/flate.(*decompressor).huffmanBlock
+/usr/local/go/src/compress/flate/inflate.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+    564            .       10ms           ??? 
+    578            .       10ms           ??? 
+compress/flate.(*decompressor).moreBits
+/usr/local/go/src/compress/flate/inflate.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    696            .       10ms           ??? 
+compress/flate.(*decompressor).huffSym
+/usr/local/go/src/compress/flate/inflate.go
+
+  Total:        10ms       20ms (flat, cum)  4.26%
+    719            .       10ms           ??? 
+    721         10ms       10ms           ??? 
+compress/flate.(*decompressor).huffSym
+/usr/local/go/src/compress/flate/inflate.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    742         10ms       10ms           ??? 
+sync.(*RWMutex).RLock
+/usr/local/go/src/sync/rwmutex.go
+
+  Total:        20ms       20ms (flat, cum)  4.26%
+     61         20ms       20ms           ??? 
+bufio.(*Reader).fill
+/usr/local/go/src/bufio/bufio.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    106            .       10ms           ??? 
+bufio.(*Reader).Peek
+/usr/local/go/src/bufio/bufio.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    144            .       10ms           ??? 
+bufio.(*Reader).ReadByte
+/usr/local/go/src/bufio/bufio.go
+
+  Total:        20ms       20ms (flat, cum)  4.26%
+    259         10ms       10ms           ??? 
+    266         10ms       10ms           ??? 
+bufio.(*Writer).Flush
+/usr/local/go/src/bufio/bufio.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    628            .       10ms           ??? 
+syscall.Syscall
+/usr/local/go/src/syscall/asm_linux_amd64.s
+
+  Total:        20ms       20ms (flat, cum)  4.26%
+     26         20ms       20ms           ??? 
+net/textproto.(*Reader).ReadMIMEHeader
+/usr/local/go/src/net/textproto/reader.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    485         10ms       10ms           ??? 
+github.com/prometheus/prometheus/scrape.newScrapePool.func1
+/app/scrape/scrape.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    279            .       10ms           ??? 
+github.com/prometheus/prometheus/scrape.(*targetScraper).scrape
+/app/scrape/scrape.go
+
+  Total:           0       60ms (flat, cum) 12.77%
+    814            .       60ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeCache).get
+/app/scrape/scrape.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    976         10ms       10ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeCache).setHelp
+/app/scrape/scrape.go
+
+  Total:           0       30ms (flat, cum)  6.38%
+   1035            .       30ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).run
+/app/scrape/scrape.go
+
+  Total:           0      370ms (flat, cum) 78.72%
+   1224            .      370ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).scrapeAndReport
+/app/scrape/scrape.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1258            .       10ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).scrapeAndReport.func1
+/app/scrape/scrape.go
+
+  Total:           0       30ms (flat, cum)  6.38%
+   1271            .       30ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).scrapeAndReport
+/app/scrape/scrape.go
+
+  Total:           0       60ms (flat, cum) 12.77%
+   1300            .       60ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).scrapeAndReport
+/app/scrape/scrape.go
+
+  Total:           0      300ms (flat, cum) 63.83%
+   1324            .      270ms           ??? 
+   1342            .       30ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).append
+/app/scrape/scrape.go
+
+  Total:           0      190ms (flat, cum) 40.43%
+   1477            .      160ms           ??? 
+   1488            .       30ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).append
+/app/scrape/scrape.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+   1511         10ms       10ms           ??? 
+github.com/prometheus/prometheus/scrape.(*scrapeLoop).append
+/app/scrape/scrape.go
+
+  Total:           0       70ms (flat, cum) 14.89%
+   1548            .       70ms           ??? 
+regexp.(*Regexp).tryBacktrack
+/usr/local/go/src/regexp/backtrack.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    166         10ms       10ms           ??? 
+regexp.(*Regexp).backtrack
+/usr/local/go/src/regexp/backtrack.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    326            .       10ms           ??? 
+runtime.stkbucket
+/usr/local/go/src/runtime/mprof.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    246         10ms       10ms           ??? 
+runtime.mProf_Malloc
+/usr/local/go/src/runtime/mprof.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    345            .       10ms           ??? 
+github.com/golang/snappy.encodeBlock
+/go/pkg/mod/github.com/golang/snappy@v0.0.4/encode_amd64.s
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    656         10ms       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.(*blockSeriesSet).At
+/app/tsdb/querier.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    743         10ms       10ms           ??? 
+time.Now
+/usr/local/go/src/time/time.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+   1074         10ms       10ms           ??? 
+runtime.pcvalue
+/usr/local/go/src/runtime/symtab.go
+
+  Total:        10ms       10ms (flat, cum)  2.13%
+    915         10ms       10ms           ??? 
+runtime.pcdatavalue
+/usr/local/go/src/runtime/symtab.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1073            .       10ms           ??? 
+github.com/prometheus/prometheus/scrape.(*timeLimitAppender).Append
+/app/scrape/target.go
+
+  Total:           0       70ms (flat, cum) 14.89%
+    344            .       70ms           ??? 
+github.com/prometheus/prometheus/model/labels.NewMatcher
+/app/model/labels/matcher.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+     62            .       10ms           ??? 
+net.(*netFD).Read
+/usr/local/go/src/net/fd_posix.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+     55            .       10ms           ??? 
+net.(*netFD).Write
+/usr/local/go/src/net/fd_posix.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+     96            .       10ms           ??? 
+github.com/prometheus/client_golang/prometheus/promhttp.InstrumentHandlerDuration.func2
+/go/pkg/mod/github.com/prometheus/client_golang@v1.12.2/prometheus/promhttp/instrument_server.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+     84            .       50ms           ??? 
+github.com/prometheus/client_golang/prometheus/promhttp.InstrumentHandlerCounter.func1
+/go/pkg/mod/github.com/prometheus/client_golang@v1.12.2/prometheus/promhttp/instrument_server.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    117            .       50ms           ??? 
+github.com/prometheus/client_golang/prometheus/promhttp.InstrumentHandlerResponseSize.func1
+/go/pkg/mod/github.com/prometheus/client_golang@v1.12.2/prometheus/promhttp/instrument_server.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    239            .       50ms           ??? 
+compress/gzip.(*Reader).Read
+/usr/local/go/src/compress/gzip/gunzip.go
+
+  Total:           0       60ms (flat, cum) 12.77%
+    251            .       60ms           ??? 
+github.com/prometheus/exporter-toolkit/web.Serve
+/go/pkg/mod/github.com/prometheus/exporter-toolkit@v0.7.1/web/tls_config.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    232            .       10ms           ??? 
+github.com/prometheus/prometheus/promql/parser.(*yyParserImpl).Parse
+promql/parser/generated_parser.y
+
+  Total:           0       10ms (flat, cum)  2.13%
+    557            .       10ms           ??? 
+github.com/prometheus/prometheus/promql/parser.(*yyParserImpl).Parse
+promql/parser/generated_parser.y
+
+  Total:           0       10ms (flat, cum)  2.13%
+    719            .       10ms           ??? 
+github.com/prometheus/prometheus/model/labels.NewFastRegexMatcher
+/app/model/labels/regexp.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+     36            .       10ms           ??? 
+github.com/prometheus/prometheus/storage.(*genericMergeSeriesSet).Next
+/app/storage/merge.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    348            .       10ms           ??? 
+github.com/prometheus/prometheus/tsdb.dbAppender.Commit
+/app/tsdb/db.go
+
+  Total:           0       30ms (flat, cum)  6.38%
+    870            .       30ms           ??? 
+github.com/prometheus/prometheus/storage.(*fanoutAppender).Append
+/app/storage/fanout.go
+
+  Total:           0       70ms (flat, cum) 14.89%
+    148            .       70ms           ??? 
+github.com/prometheus/prometheus/storage.(*fanoutAppender).Commit
+/app/storage/fanout.go
+
+  Total:           0       30ms (flat, cum)  6.38%
+    176            .       30ms           ??? 
+runtime.Callers
+/usr/local/go/src/runtime/extern.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    235            .       10ms           ??? 
+github.com/prometheus/common/model.ParseDuration
+/go/pkg/mod/github.com/prometheus/common@v0.35.0/model/time.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    198            .       10ms           ??? 
+regexp.(*Regexp).FindStringSubmatch
+/usr/local/go/src/regexp/regexp.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1043            .       10ms           ??? 
+runtime.mallocgc
+/usr/local/go/src/runtime/malloc.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+   1105            .       20ms           ??? 
+runtime.mallocgc
+/usr/local/go/src/runtime/malloc.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+   1171            .       10ms           ??? 
+   1183            .       10ms           ??? 
+runtime.memclrNoHeapPointersChunked
+/usr/local/go/src/runtime/malloc.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1251            .       10ms           ??? 
+runtime.newobject
+/usr/local/go/src/runtime/malloc.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+   1259            .       20ms           ??? 
+runtime.profilealloc
+/usr/local/go/src/runtime/malloc.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1295            .       10ms           ??? 
+compress/flate.NewWriter
+/usr/local/go/src/compress/flate/deflate.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+    670            .       20ms           ??? 
+syscall.read
+/usr/local/go/src/syscall/zsyscall_linux_amd64.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    696            .       10ms           ??? 
+syscall.write
+/usr/local/go/src/syscall/zsyscall_linux_amd64.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    924            .       10ms           ??? 
+github.com/prometheus/prometheus/util/pool.(*Pool).Get
+/app/util/pool/pool.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+     66            .       10ms           ??? 
+github.com/prometheus/common/route.(*Router).handle.func1
+/go/pkg/mod/github.com/prometheus/common@v0.35.0/route/route.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+     83            .       50ms           ??? 
+github.com/prometheus/common/route.(*Router).ServeHTTP
+/go/pkg/mod/github.com/prometheus/common@v0.35.0/route/route.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    126            .       50ms           ??? 
+runtime.systemstack
+/usr/local/go/src/runtime/asm_amd64.s
+
+  Total:           0       10ms (flat, cum)  2.13%
+    469            .       10ms           ??? 
+github.com/prometheus/prometheus/storage.(*genericSeriesSetAdapter).At
+/app/storage/generic.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+     42            .       20ms           ??? 
+github.com/prometheus/prometheus/storage.(*seriesSetAdapter).At
+/app/storage/generic.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+     85            .       10ms           ??? 
+net/http.readRequest
+/usr/local/go/src/net/http/request.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1076            .       10ms           ??? 
+bytes.(*Buffer).ReadFrom
+/usr/local/go/src/bytes/buffer.go
+
+  Total:           0       60ms (flat, cum) 12.77%
+    204            .       60ms           ??? 
+runtime.makeslice
+/usr/local/go/src/runtime/slice.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    103            .       10ms           ??? 
+runtime.growslice
+/usr/local/go/src/runtime/slice.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+    272            .       10ms           ??? 
+    285            .       10ms           ??? 
+internal/poll.(*FD).Read
+/usr/local/go/src/internal/poll/fd_unix.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    163            .       10ms           ??? 
+internal/poll.(*FD).Write
+/usr/local/go/src/internal/poll/fd_unix.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    383            .       10ms           ??? 
+internal/poll.ignoringEINTRIO
+/usr/local/go/src/internal/poll/fd_unix.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+    794            .       20ms           ??? 
+golang.org/x/net/trace.NewEventLog
+/go/pkg/mod/golang.org/x/net@v0.0.0-20220520000938-2e3eb7b945c2/trace/events.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    139            .       10ms           ??? 
+golang.org/x/net/trace.(*eventLog).Errorf
+/go/pkg/mod/golang.org/x/net@v0.0.0-20220520000938-2e3eb7b945c2/trace/events.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    310            .       10ms           ??? 
+golang.org/x/net/trace.(*eventLog).printf
+/go/pkg/mod/golang.org/x/net@v0.0.0-20220520000938-2e3eb7b945c2/trace/events.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    314            .       10ms           ??? 
+compress/gzip.(*Writer).Write
+/usr/local/go/src/compress/gzip/gzip.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+    191            .       20ms           ??? 
+net/http.(*Transport).dial
+/usr/local/go/src/net/http/transport.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1169            .       10ms           ??? 
+net/http.(*Transport).dialConnFor
+/usr/local/go/src/net/http/transport.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1449            .       10ms           ??? 
+net/http.(*Transport).dialConn
+/usr/local/go/src/net/http/transport.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+   1607            .       10ms           ??? 
+github.com/prometheus/prometheus/web.withStackTracer.func1
+/app/web/web.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    104            .       50ms           ??? 
+github.com/prometheus/prometheus/web.(*Handler).testReady.func1
+/app/web/web.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    533            .       50ms           ??? 
+github.com/prometheus/prometheus/web.(*Handler).Run.func2
+/app/web/web.go
+
+  Total:           0       10ms (flat, cum)  2.13%
+    608            .       10ms           ??? 
+github.com/prometheus/prometheus/web.setPathWithPrefix.func1.1
+/app/web/web.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    795            .       50ms           ??? 
+github.com/prometheus/prometheus/util/httputil.(*compressedResponseWriter).Write
+/app/util/httputil/compression.go
+
+  Total:           0       20ms (flat, cum)  4.26%
+     40            .       20ms           ??? 
+github.com/prometheus/prometheus/util/httputil.CompressionHandler.ServeHTTP
+/app/util/httputil/compression.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+     90            .       50ms           ??? 
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp.(*Handler).ServeHTTP
+/go/pkg/mod/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.32.0/handler.go
+
+  Total:           0       50ms (flat, cum) 10.64%
+    191            .       50ms           ??? 
